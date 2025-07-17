@@ -1,4 +1,4 @@
-# HabitCoreDemo
+# HabitCore
 
 **HabitCore** is a web-based habit tracking application that helps users build consistency through daily tracking, progress visualization, and motivational badges. The platform encourages users to stay accountable and gamify self-growth.
 
