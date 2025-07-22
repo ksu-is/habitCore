@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #fdf6f9;
+  color: #333;
+  padding: 2rem;
+  text-align: center;
+}
+
+h1 {
+  color: #d96c96;
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+  font-weight: 600;
+}
+
+input, select, button {
+  padding: 0.75rem 1rem;
+  border-radius: 10px;
+  border: 1px solid #e3d2d8;
+  font-size: 1rem;
+  margin: 0.5rem;
+  transition: 0.2s ease;
+}
+
+input:focus, select:focus {
+  border-color: #eab1c1;
+  box-shadow: 0 0 5px #eab1c1;
+  outline: none;
+}
+
+button {
+  background-color: #eab1c1;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+button:hover {
+  background-color: #d96c96;
+}
+
+li {
+  list-style: none;
+  background-color: #fff;
+  border-radius: 16px;
+  box-shadow: 0 4px 10px rgba(214, 173, 192, 0.15);
+  padding: 1rem;
+  margin: 1rem auto;
+  max-width: 550px;
+  text-align: left;
+}
+
+strong {
+  font-weight: 600;
+  color: #444;
+}
+
+em {
+  color: #777;
+  font-style: italic;
+}
+
+.progress-container {
+  background-color: #f0d6de;
+  height: 8px;
+  border-radius: 5px;
+  margin-top: 8px;
+}
+
+.progress-bar {
+  background-color: #d96c96;
+  height: 100%;
+  border-radius: 5px;
+  transition: width 0.3s ease;
+}
+
+small {
+  font-size: 0.85rem;
+  color: #666;
+}
+.calendar {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0;
+  padding: 0 10px;
+}
+
+.day {
+  font-size: 0.85rem;
+  padding: 6px;
+  border-radius: 6px;
+  width: 24px;
+  text-align: center;
+  background-color: #f3d5e4;
+  color: #555;
+  opacity: 0.6;
+}
+
+.day.done {
+  background-color: #d96c96;
+  color: white;
+  opacity: 1;
+  font-weight: bold;
+}
+.delete-btn {
+  background-color: #ffdddd;
+  border: 1px solid #ffaaaa;
+  color: red;
+  margin-left: 5px;
+  padding: 4px 8px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.calendar {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.day {
+  display: inline-block;
+  padding: 6px 8px;
+  margin: 2px;
+  border-radius: 6px;
+  background-color: #f5dce3; /* Light pink background */
+  color: #444;
+  font-size: 0.85em;
+}
+
+.day.marked {
+  background-color: #f28ab2; /* Hot pink for completed day */
+  color: white;
+  font-weight: bold;
+}
+.tagline {
+  font-size: 1.2rem;
+  text-align: center;
+  color: #d96c96;
+  margin-top: -10px;
+  margin-bottom: 20px;
+  font-style: italic;
+}
+#habitList li {
+  background: white;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  transition: box-shadow 0.3s ease;
+}
+
+#habitList li:hover {
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+.habit-message {
+  text-align: center;
+  font-style: italic;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  color: #333;
+}

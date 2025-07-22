@@ -1,12 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>HabitCore</title>
-    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HabitCore</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Welcome to HabitCore</h1>
-    <p>Track your habits daily and build a better you!</p>
+  <h1>HabitCore</h1>
+  <p class="tagline">Consistency Starts Here 💡</p>
+  <div id="habitStats" style="text-align:center; font-weight:bold; margin-bottom:10px;">
+  </div>
+  <form id="habitForm">
+     <input type="text" id="habitInput" placeholder="New Habit..." required>
+  
+    <select id="habitCategory" required>
+      <option value="">Choose Category</option>
+      <option value="🏋️ Fitness">🏋️ Fitness</option>
+      <option value="📚 Study">📚 Study</option>
+      <option value="😌 Wellness">😌 Wellness</option>
+      <option value="🧼 Hygiene">🧼 Hygiene</option>
+      <option value="✍️ Writing">✍️ Writing</option>
+      <option value="🥂 Social Life">🥂 Social Life</option>
+    </select>
+  
+    <button type="submit">Add Habit</button>
+  </form>
+  <ul id="habitList"></ul>
+  <script src="script.js"></script>
 </body>
 </html>
