@@ -24,12 +24,20 @@
 ---
 
 ##  Folder Structure
-habitcore/            
-app.py/              
+habitcore/ 
+
+app.py/ 
+
 index.html/
+
 run.py/
+
 script.js/
+
 style.css/
+
 roadmap.md/
-README.md         
+
+README.md 
+
 requirements.txt  
