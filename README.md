@@ -25,13 +25,11 @@
 
 ##  Folder Structure
 habitcore/            
-app/              
-static/       
-templates/    
- __init__.py   
- routes.py     
- models.py     
- tests/            
-run.py            
+app.py/              
+index.html/
+run.py/
+script.js/
+style.css/
+roadmap.md/
 README.md         
 requirements.txt  
